@@ -1,0 +1,55 @@
+{
+    "operationName": "IssueNavigatorIssueSearchRefetchQuery",
+    "variables": {
+        "after": null,
+        "amountOfColumns": 500,
+        "before": null,
+        "cloudId": "b612c49c-aa00-4384-bb9c-53ac7aa24071",
+        "fieldSetIds": [],
+        "fieldSetsContext": null,
+        "fieldSetsInput": {
+            "viewInput": {
+                "namespace": "ISSUE_NAVIGATOR",
+                "viewId": "list_default"
+            }
+        },
+        "filterId": null,
+        "first": 50,
+        "groupBy": null,
+        "isPaginating": false,
+        "isRefactorNinToViewSchemaEnabled": true,
+        "issueSearchInput": {
+            "jql": "project = SOC\nAND organizations = \"PT Kereta Api Indonesia (Persero)\"\nAND \"Request Type\" = \"MSE - Event Detection (2) (SOC)\"\nAND created >= startOfDay()\nAND created <= endOfDay()\nAND status = \"Recommendation Provided\"\nORDER BY created DESC, status ASC, key DESC"
+        },
+        "last": null,
+        "namespace": "ISSUE_NAVIGATOR",
+        "options": null,
+        "projectKey": null,
+        "projectKeys": null,
+        "scope": {
+            "operationScope": "NIN_GLOBAL_SCHEMA_REFACTOR"
+        },
+        "shouldQueryFieldSetsById": false,
+        "shouldQueryHasChildren": false,
+        "staticViewInput": {
+            "isHierarchyEnabled": false,
+            "isGroupingEnabled": false,
+            "isHideDoneEnabled": false
+        },
+        "viewConfigInput": {
+            "staticViewInput": {
+                "isHierarchyEnabled": false,
+                "isGroupingEnabled": false,
+                "isHideDoneEnabled": false
+            }
+        },
+        "viewId": "list_default",
+        "__relay_internal__pv__atlassianjirarelayprovidersrcisrefactornintoviewschemaenabledrelayprovider": true,
+        "__relay_internal__pv__atlassianjirarelayprovidersrcisbulkopsinninenabledrelayprovider": true,
+        "__relay_internal__pv__atlassianjirarelayprovidersrcjiralistreparentingrelayprovider": true,
+        "__relay_internal__pv__atlassianjirarelayprovidersrcisjscinfinitescrollenabledrelayprovider": true,
+        "__relay_internal__pv__atlassianjirarelayprovidersrcjscm2fechangesrelayprovider": true,
+        "__relay_internal__pv__atlassianjirarelayprovidersrcjscinlineeditingfieldrefactorrelayprovider": true,
+        "__relay_internal__pv__atlassianjirarelayprovidersrcthorcolorfulsingleselectmilestone2experimentrelayprovider": true
+    }
+}

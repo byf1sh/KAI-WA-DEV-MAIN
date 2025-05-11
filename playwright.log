@@ -1,0 +1,19 @@
+2025-05-11 14:32:14,506 - INFO - waiting new message from grup gue....
+2025-05-11 14:32:24,439 - INFO - [
+    {
+        "timestamp": "2025-05-11T14:32:24.439028",
+        "message": "tess brow\n14.32"
+    }
+]
+2025-05-11 14:32:31,613 - INFO - waiting new message from grup gue....
+2025-05-11 14:32:38,643 - INFO - [
+    {
+        "timestamp": "2025-05-11T14:32:38.643565",
+        "message": "done lah ye\n14.32"
+    }
+]
+2025-05-11 14:32:45,785 - INFO - waiting new message from grup gue....
+2025-05-11 14:32:46,925 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-31' coro=<BrowserContext.close() running at C:\Users\Abyan.Hafiizh\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_browser_context.py:565> cb=[SyncBase._sync.<locals>.<lambda>() at C:\Users\Abyan.Hafiizh\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py:111]>
+2025-05-11 14:32:46,988 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-30' coro=<Page.wait_for_selector() done, defined at C:\Users\Abyan.Hafiizh\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py:417> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[SyncBase._sync.<locals>.<lambda>() at C:\Users\Abyan.Hafiizh\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py:111, ProtocolCallback.__init__.<locals>.cb() at C:\Users\Abyan.Hafiizh\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py:198]>
